@@ -40,7 +40,7 @@ function parseData(xml) {
 
   //changing the strings to numbers, now have an array of four arrays (one for each compass direction)
   var surfHeightArrayNum = _.map(surfHeightArray, function(array){return _.map(array, function(str){return parseFloat(str)})})
-   fs.writeFileSync(__dirname + '/index.html', surfHeightArrayNum);
+  //fs.writeFileSync(__dirname + '/index.html', surfHeightArrayNum);
 }
 
 
